@@ -1,1 +1,1 @@
-# portfolio
+# AI 개발자 김민희
