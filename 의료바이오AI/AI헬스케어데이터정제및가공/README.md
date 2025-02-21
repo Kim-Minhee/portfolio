@@ -45,6 +45,7 @@
 ##
 ### 실습
 <br>
+
 1. diabetes_classification.ipynb → 당뇨병 예측
 > * 데이터셋: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 ><details><summary>당뇨병</summary>
