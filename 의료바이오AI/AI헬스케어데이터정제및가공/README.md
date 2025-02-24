@@ -42,13 +42,29 @@
 > 몸 속의 생화학 변화를 영상화 할 수 있는 첨단 영상진단 기법
 
 
-##
+- - -
 ### 실습
+<details>
+<summary>파일 구조</summary>
+📁 AI헬스케어데이터정제및가공<br>
+    &emsp;📁 dataset<br>
+        &emsp;&emsp;📄 diabetes.csv<br>
+    &emsp;📁 models<br>
+        &emsp;&emsp;📄 NN-0224.pth<br>
+    &emsp;📄 breast-cancer_classification.ipynb<br>
+    &emsp;📄 diabetes_classification.ipynb<br>
+    &emsp;📄 README.md<br>
+</details>
 <br>
 
-1. diabetes_classification.ipynb → 당뇨병 예측
-> * 데이터셋: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
-><details><summary>당뇨병</summary>
+**1. diabetes_classification.ipynb → 당뇨병 예측**
+> 데이터셋: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+> <details><summary>당뇨병</summary>
 > - 고혈당을 유발하는 대사성 질환<br>
 > - 인슐린 호르몬은 혈액 속의 당을 세포로 옮겨서 저장하거나 에너지로 사용하지만 당뇨병 환자의 경우, 몸이 충분한 인슐린을 만들지 못하거나 만든 인슐린을 효과적으로 사용하지 못하는 상황이 발생</details>
-2. 
+
+**2. breast-cancer_classification.ipynb → 유방암 예측**
+> 데이터셋: sklearn.datasets.load_breast_cancer
+
+
+- - -
