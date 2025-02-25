@@ -1,7 +1,6 @@
 # 내용 정리
 
-### 헬스케어 데이터의 종류
-<br>
+### 헬스케어 데이터의 종류<br>
 
 **1. 초음파 영상(Ultrasound imaging)**
 > 우리 귀에 들리지 않는 높은 주파수의 음파를 인체 표면에서 인체 내부로 보낸 후, 내부에서 **반사되는 음파**를 영상화
@@ -43,18 +42,25 @@
 
 
 - - -
+
 ### 실습
 <details>
 <summary>파일 구조</summary>
 📁 AI헬스케어데이터정제및가공<br>
     &emsp;📁 dataset<br>
+        &emsp;&emsp;📁 chest_xray<br>
+            &emsp;&emsp;&emsp;📁 test<br>
+                &emsp;&emsp;&emsp;&emsp;📁 NORMAL<br>
+                &emsp;&emsp;&emsp;&emsp;📁 PNEUMONIA<br>
+            &emsp;&emsp;&emsp;📁 train<br>
+                &emsp;&emsp;&emsp;&emsp;📁 NORMAL<br>
+                &emsp;&emsp;&emsp;&emsp;📁 PNEUMONIA<br>
+            &emsp;&emsp;&emsp;📁 val<br>
+                &emsp;&emsp;&emsp;&emsp;📁 NORMAL<br>
+                &emsp;&emsp;&emsp;&emsp;📁 PNEUMONIA<br>
         &emsp;&emsp;📁 cnn<br>
             &emsp;&emsp;&emsp;📁 cat<br>
-                &emsp;&emsp;&emsp;&emsp;📄 cat1.jpg<br>
-                &emsp;&emsp;&emsp;&emsp;📄 cat2.jpg<br>
             &emsp;&emsp;&emsp;📁 dog<br>
-                &emsp;&emsp;&emsp;&emsp;📄 dog1.jpg<br>
-                &emsp;&emsp;&emsp;&emsp;📄 dog2.jpg<br>
         &emsp;&emsp;📄 diabetes.csv<br>
     &emsp;📁 models<br>
         &emsp;&emsp;📄 NN-0224.pth<br>
@@ -91,5 +97,6 @@
 > - 관련 위험 인자: 낭포성 섬유증, 만성 폐쇄성 폐질환(COPD), 천식, 당뇨병, 심부전, 흡연 이력, 뇌졸중과 같은 기침 능력 저하, 면역 체계 약화 등<br>
 > - 진단: 보통 증상과 신체 검사를 기반으로 하며, 흉부 엑스레이, 혈액 검사, 가래 배양 등이 진단 확인에 도움이 될 수 있음<br>
 > - 폐렴은 지역사회 또는 병원에서 획득한 폐렴이나 의료 관련 폐렴과 같이 감염된 위치에 따라 분류될 수도 있음</details>
+
 
 - - -
