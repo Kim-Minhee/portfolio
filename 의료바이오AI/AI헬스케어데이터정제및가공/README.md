@@ -48,23 +48,48 @@
 <summary>파일 구조</summary>
 📁 AI헬스케어데이터정제및가공<br>
     &emsp;📁 dataset<br>
+        &emsp;&emsp;📁 cnn<br>
+            &emsp;&emsp;&emsp;📁 cat<br>
+                &emsp;&emsp;&emsp;&emsp;📄 cat1.jpg<br>
+                &emsp;&emsp;&emsp;&emsp;📄 cat2.jpg<br>
+            &emsp;&emsp;&emsp;📁 dog<br>
+                &emsp;&emsp;&emsp;&emsp;📄 dog1.jpg<br>
+                &emsp;&emsp;&emsp;&emsp;📄 dog2.jpg<br>
         &emsp;&emsp;📄 diabetes.csv<br>
     &emsp;📁 models<br>
         &emsp;&emsp;📄 NN-0224.pth<br>
-    &emsp;📄 breast-cancer_classification.ipynb<br>
-    &emsp;📄 diabetes_classification.ipynb<br>
+    &emsp;📄 cnn_cat-dog_classification.ipynb<br>
+    &emsp;📄 cnn_mnist_classification.ipynb<br>
+    &emsp;📄 cnn_pneumonia_classification.ipynb<br>
+    &emsp;📄 mlp_breast-cancer_classification.ipynb<br>
+    &emsp;📄 nn_diabetes_classification.ipynb<br>
     &emsp;📄 README.md<br>
 </details>
 <br>
 
-**1. diabetes_classification.ipynb → 당뇨병 예측**
+**1. nn_diabetes_classification.ipynb → Neural Networks를 이용한 당뇨병 예측**
 > 데이터셋: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 > <details><summary>당뇨병</summary>
 > - 고혈당을 유발하는 대사성 질환<br>
 > - 인슐린 호르몬은 혈액 속의 당을 세포로 옮겨서 저장하거나 에너지로 사용하지만 당뇨병 환자의 경우, 몸이 충분한 인슐린을 만들지 못하거나 만든 인슐린을 효과적으로 사용하지 못하는 상황이 발생</details>
 
-**2. breast-cancer_classification.ipynb → 유방암 예측**
+**2. mlp_breast-cancer_classification.ipynb → MLP를 이용한 유방암 예측**
 > 데이터셋: sklearn.datasets.load_breast_cancer
 
+**3. cnn_cat-dog_classification.ipynb → CNN을 이용한 고양이/강아지 예측**
+> 데이터셋: 고양이, 강아지 사진 각각 2장
+
+**4. cnn_mnist_classification.ipynb → CNN을 이용한 손글씨 숫자 예측**
+> 데이터셋: keras.datasets.mnist.load_data
+
+**5. cnn_pneumonia_classification.ipynb → CNN을 이용한 폐렴 예측**
+> 데이터셋: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+> <details><summary>폐렴</summary>
+> - 폐포라고 알려진 작은 공기주머니에 주로 영향을 미치는 폐의 염증 상태<br>
+> - 일반적으로 바이러스나 박테리아에 감염되어 발생 (다른 미생물, 특정 약물 또는 자가면역질환과 같은 조건에 의해 발생하는 경우는 드물다고 알려져 있음)<br>
+> - 증상: 습성적이거나 건조한 기침, 가슴 통증, 발열, 호흡 곤란 등의 조합을 포함하며, 상태의 심각도는 가변적임<br>
+> - 관련 위험 인자: 낭포성 섬유증, 만성 폐쇄성 폐질환(COPD), 천식, 당뇨병, 심부전, 흡연 이력, 뇌졸중과 같은 기침 능력 저하, 면역 체계 약화 등<br>
+> - 진단: 보통 증상과 신체 검사를 기반으로 하며, 흉부 엑스레이, 혈액 검사, 가래 배양 등이 진단 확인에 도움이 될 수 있음<br>
+> - 폐렴은 지역사회 또는 병원에서 획득한 폐렴이나 의료 관련 폐렴과 같이 감염된 위치에 따라 분류될 수도 있음</details>
 
 - - -
