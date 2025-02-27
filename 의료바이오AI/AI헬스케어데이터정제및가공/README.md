@@ -48,6 +48,24 @@
 <summary>파일 구조</summary>
 📁 AI헬스케어데이터정제및가공<br>
     &emsp;📁 dataset<br>
+        &emsp;&emsp;📁 brain_tumor<br>
+            &emsp;&emsp;&emsp;📁 images<br>
+                &emsp;&emsp;&emsp;&emsp;📁 test<br>
+                &emsp;&emsp;&emsp;&emsp;📁 train<br>
+            &emsp;&emsp;&emsp;📁 labels<br>
+                &emsp;&emsp;&emsp;&emsp;📁 test<br>
+                &emsp;&emsp;&emsp;&emsp;📁 train<br>
+            &emsp;&emsp;&emsp;📁 total<br>
+                &emsp;&emsp;&emsp;&emsp;📁 test<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;📁 images<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;📁 labels<br>
+                &emsp;&emsp;&emsp;&emsp;📁 train<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;📁 images<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;📁 labels<br>
+                &emsp;&emsp;&emsp;&emsp;📁 val<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;📁 images<br>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;📁 labels<br>
+                &emsp;&emsp;&emsp;&emsp;📄 dataset.yaml<br>
         &emsp;&emsp;📁 chest_xray<br>
             &emsp;&emsp;&emsp;📁 test<br>
                 &emsp;&emsp;&emsp;&emsp;📁 NORMAL<br>
@@ -63,6 +81,16 @@
             &emsp;&emsp;&emsp;📁 dog<br>
         &emsp;&emsp;📄 diabetes.csv<br>
     &emsp;📁 models<br>
+        &emsp;&emsp;📁 YOLO_brain-tumor<br>
+            &emsp;&emsp;&emsp;📁 weights<br>
+                &emsp;&emsp;&emsp;&emsp;📄 best.pt<br>
+                &emsp;&emsp;&emsp;&emsp;📄 last.pt<br>
+            &emsp;&emsp;&emsp;📄 confusion_matrix.png<br>
+            &emsp;&emsp;&emsp;📄 results.png<br>
+            &emsp;&emsp;&emsp;📄 val_batch0_labels.jpg<br>
+            &emsp;&emsp;&emsp;📄 val_batch0_pred.jpg<br>
+        &emsp;&emsp;📄 BC_best.pt<br>
+        &emsp;&emsp;📄 BC_last.pt<br>
         &emsp;&emsp;📄 NN-0224.pth<br>
     &emsp;📄 cnn_cat-dog_classification.ipynb<br>
     &emsp;📄 cnn_mnist_classification.ipynb<br>
@@ -70,6 +98,7 @@
     &emsp;📄 mlp_breast-cancer_classification.ipynb<br>
     &emsp;📄 nn_diabetes_classification.ipynb<br>
     &emsp;📄 README.md<br>
+    &emsp;📄 yolo_brain-tumor_detection.ipynb<br>
 </details>
 <br>
 
@@ -97,6 +126,10 @@
 > - 관련 위험 인자: 낭포성 섬유증, 만성 폐쇄성 폐질환(COPD), 천식, 당뇨병, 심부전, 흡연 이력, 뇌졸중과 같은 기침 능력 저하, 면역 체계 약화 등<br>
 > - 진단: 보통 증상과 신체 검사를 기반으로 하며, 흉부 엑스레이, 혈액 검사, 가래 배양 등이 진단 확인에 도움이 될 수 있음<br>
 > - 폐렴은 지역사회 또는 병원에서 획득한 폐렴이나 의료 관련 폐렴과 같이 감염된 위치에 따라 분류될 수도 있음</details>
+
+**6. yolo_brain-tumor_detection.ipynb → YOLO를 이용한 뇌종양 객체 인식**
+> 데이터셋: https://www.kaggle.com/datasets/davidbroberts/brain-tumor-object-detection-datasets
+
 
 
 - - -
