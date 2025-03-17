@@ -44,6 +44,3 @@
 >* 참여 인원: 4명
 >* 기술 스택: Streamlit, Gemini, Huggingface
 >* 깃허브: (준비 중)
-
-
-
