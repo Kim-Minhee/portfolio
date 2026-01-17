@@ -44,3 +44,10 @@
 >* 참여 인원: 4명
 >* 기술 스택: Streamlit, Gemini, Huggingface
 >* 깃허브: (준비 중)
+
+### 4. 맞춤 뉴스 브리핑 [개인 프로젝트]
+> LLM 활용 데일리 맞춤 뉴스 브리핑 MCP 개발 (Kakao PlayMCP)
+>* 개발 기간: 2026.01.14 ~ 2026.01.15
+>* 참여 인원: 1명
+>* 기술 스택: MCP
+>* 깃허브: https://github.com/Kim-Minhee/mcp_personal-news-briefing
