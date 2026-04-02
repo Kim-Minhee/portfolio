@@ -1,58 +1,47 @@
-# AI 개발자 김민희
+# 🧑‍💻 Generative AI & Backend Developer
 
-### 💼 Work Experience
-* **AI 모델 개발/개선 (2022.11 ~ 2023.09)**
->* Classification (음성 분류, 이미지 분류, 이미지 검출)
->* Regression (점수 예측)
->* LLM (Gemini API)
-* **Java 웹 개발 (2022.08 ~ 2022.10)**
->* 채용 사이트, 근태 솔루션 등
-* 진단키트 및 의료기기 QC (2019.01 ~ 2020.04)
+*"의료/바이오 도메인 지식과 IT 기술을 융합하여, 현장에 실질적인 가치를 창출하는 AI 서비스를 만듭니다."*
 
-### 🎓 Certificated Program
-* 생성 AI 응용 서비스 개발자 (2024.08 ~ 2025.03)
-* AI 헬스케어 비즈니스 모델 개발, AI 헬스케어 데이터 정제 및 가공 (2023.08 ~ 2023.09)
-* 2022 AI/SW 온라인 실무 교육 (2022.10 ~ 2022.12)
-* 파이썬 기반 빅데이터 시각화 (2022.05 ~ 2022.07)
-* Java 빅데이터 UI기반 웹개발자 (2020.05 ~ 2020.11)
+웹 백엔드부터 AI 모델 성능 고도화까지의 실무 경험을 보유하고 있습니다. 단순한 API 활용을 넘어, RAG와 클라우드 인프라(GCP)를 활용해 안정적이고 신뢰할 수 있는 생성형 AI 풀스택 서비스를 구축하는 것을 목표로 끊임없이 학습하고 있습니다.
 
-### 🤗 Contact
-* 이메일: minhee9488@gmail.com
-* 노션: https://www.notion.so/AI-183fe59a239f8028b98dcad570a18ae4?pvs=4
+## 🛠️ Tech Stack
+- **Languages:** Python, Java
+- **AI / ML:** PyTorch, TensorFlow(Keras), Ultralytics(YOLO)
+- **Generative AI:** Google Gemini API, Prompt Engineering
+- **Web / Backend:** Streamlit, Spring(Java)
 
+---
 
-## 💻 Project
+## 💼 Work Experience
+* **AI 개발자** (9개월)
+  - AI 모델 성능 고도화 및 모델링 작업 수행
+  - AI 기술의 실제 서비스 환경 적용 및 테스트 진행
+* **웹 개발자** (3개월)
+  - 백엔드 업무 위주 담당, 클라이언트-데이터 연동 로직 구현
 
-### 1. MEGA [팀 프로젝트]
-> **의료 진단 보조 챗봇 서비스** (GOORM 부트캠프)
->* 개발 기간 (인원): 2025.01.13 ~ 2025.03.21
->* 참여 인원: 2명
->* 기술 스택: Tensorflow, PyTorch, Streamlit, Gemini
->* 깃허브: https://github.com/Kim-Minhee/ESC
+## 🎓 Education & Training
+* **생성 AI 응용 서비스 개발자** (2024.08 ~ 2025.03, 수료)
+* **AI 헬스케어 비즈니스 모델 개발**, **AI 헬스케어 데이터 정제 및 가공** (2023.08 ~ 2023.09, 수료)
+* **2022 AI/SW 온라인 실무 교육** (2022.10 ~ 2022.12, 수료)
+* **파이썬 기반 빅데이터 시각화** (2022.05 ~ 2022.07, 수료)
+* **Java 빅데이터 UI기반 웹개발자** (2020.05 ~ 2020.11, 수료)
 
-### 2. NOVA [팀 프로젝트]
-> **논문 어시스턴트 챗봇 서비스** (GOORM 부트캠프)
->* 개발 기간: 2024.12.06 ~ 2025.01.09
->* 참여 인원: 3명
->* 기술 스택: ArXiv API, Streamlit, OCR, Gemini
->* 깃허브: https://github.com/Kim-Minhee/NOVA
+---
 
-### 3. 제주 맛집 추천봇 [팀 프로젝트]
-> LLM 활용 제주도 맛집 추천 대화형 AI 서비스 개발 (2024 빅콘테스트)
->* 개발 기간: 2024.09.25 ~ 2024.10.25
->* 참여 인원: 4명
->* 기술 스택: Streamlit, Gemini, Huggingface
->* 깃허브: (준비 중)
+## 🚀 Projects
 
-### 4. 맞춤 뉴스 브리핑 [개인 프로젝트]
-> **데일리 맞춤 뉴스 브리핑 MCP** (Kakao PlayMCP)
->* 개발 기간: 2026.01.14 ~ 2026.01.15
->* 참여 인원: 1명
->* 기술 스택: MCP
->* 깃허브: https://github.com/Kim-Minhee/mcp_personal-news-briefing
+### [🏥 MEGA: AI 의료 진단 보조 및 초진기록지 자동 생성 챗봇](https://github.com/Kim-Minhee/MEGA)
+**비전 딥러닝 모델(객체 탐지, 이미지 분류)과 생성형 AI를 융합하여 진료 효율성을 높이는 진단 보조 서비스입니다.**
+* **기간:** 2025.01 ~ 2025.03
+* **사용 기술:** Python, Streamlit, PyTorch(YOLOv8), TensorFlow(ConvNeXt), Gemini API
+* **주요 내용:** - 환자의 뇌 MRI 및 갑상선 초음파 이미지를 딥러닝 모델로 분석하여 병변 탐지
+  - 사용자의 문진표 데이터와 비전 AI 결과를 결합하여 Gemini 기반 초진기록지 자동 작성
+* **나의 기여 및 인사이트:** - 실무에서 경험한 모델 직접 학습의 한계를 극복하고자 생성형 AI를 적극 도입함. 
+  - 프로젝트를 통해 의료 데이터의 할루시네이션(환각) 통제 한계를 체감하였으며, 이를 해결하기 위해 **RAG(검색 증강 생성) 및 클라우드(GCP) 배포 인프라 역량**의 필요성을 확인하고 다음 학습 목표로 설정함.
 
-### 5. 주가 예측 대시보드 [개인 프로젝트]
-> **주가를 예측하여 종목을 추천해주는 대시보드**
->* 개발 기간: 2026.02.06 ~ (진행 중)
->* 참여 인원: 1명
->* 깃허브: https://github.com/Kim-Minhee/smart-stock-advisor
+---
+
+## 🤗 Contact
+- **Email:** [minhee9488@gmail.com]
+- **GitHub:** [https://github.com/Kim-Minhee](https://github.com/Kim-Minhee)
+- **Notion:** [https://www.notion.so/AI-183fe59a239f8028b98dcad570a18ae4?pvs=4](https://www.notion.so/AI-183fe59a239f8028b98dcad570a18ae4?pvs=4)
