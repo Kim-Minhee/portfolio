@@ -34,13 +34,12 @@
 **비전 딥러닝 모델(객체 탐지, 이미지 분류)과 생성형 AI를 융합하여 진료 효율성을 높이는 진단 보조 서비스입니다.**
 * **기간 (인원):** 2025.01 ~ 2025.03 (2명)
 * **사용 기술:** Python, Streamlit, PyTorch(YOLOv8), TensorFlow(ConvNeXt), Gemini API
-* **주요 내용:** - 환자의 뇌 MRI 및 갑상선 초음파 이미지를 딥러닝 모델로 분석하여 병변 탐지
+* **주요 내용:**
+  - 환자의 뇌 MRI 및 갑상선 초음파 이미지를 딥러닝 모델로 분석하여 병변 탐지
   - 사용자의 문진표 데이터와 비전 AI 결과를 결합하여 Gemini 기반 초진기록지 자동 작성
-* **나의 기여 및 인사이트:** - 실무에서 경험한 모델 직접 학습의 한계를 극복하고자 생성형 AI를 적극 도입함. 
-  - 프로젝트를 통해 의료 데이터의 할루시네이션(환각) 통제 한계를 체감하였으며, 이를 해결하기 위해 **RAG(검색 증강 생성) 및 클라우드(GCP) 배포 인프라 역량**의 필요성을 확인하고 다음 학습 목표로 설정함.
 
 
 ## 🤗 Contact
-- **Email:** [minhee9488@gmail.com]
+- **Email:** minhee9488@gmail.com
 - **GitHub:** [https://github.com/Kim-Minhee](https://github.com/Kim-Minhee)
 - **Notion:** [https://www.notion.so/AI-183fe59a239f8028b98dcad570a18ae4?pvs=4](https://www.notion.so/AI-183fe59a239f8028b98dcad570a18ae4?pvs=4)
